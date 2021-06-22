@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento Flotante</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background: #f2f2f2;
+            font-family: Arial;
+        }
+
+        .cajaPadre{
+            background: #2e294a;
+            width: 700px;
+            overflow: hidden; /* Sirve para hacer visible el contenedor padre cuando todos sus hijos son objetos flotantes */
+        }
+
+        .caja{
+            background: #0e6ba8;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            color: white;
+            font-size: 38px;
+        }
+
+        .uno{
+            float: left;
+        }
+        .dos{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="cajaPadre">
+        <div class="caja uno">1</div>
+        <div class="caja dos">2</div>
+    </div>
+</body>
+</html>
