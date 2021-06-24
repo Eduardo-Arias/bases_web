@@ -1,0 +1,22 @@
+p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p::first-line {
+    font-style: italic;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+}
+
+.caja::before {
+    content: "hola mundo desde css";
+}
+
+.caja::after {
+    content: "hola desde el futuro";
+}
