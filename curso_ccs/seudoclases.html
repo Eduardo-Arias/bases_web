@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seudo Clases</title>
+
+
+    <style>
+
+        body {
+            font-family: Arial, Sans-serif;
+        }
+
+        a {
+            background: #4357ad;
+            padding: 20px 30px;
+            display: inline-block;
+            font-size: 20px;
+            color: #fff;
+        }
+        /*
+            Las seudo clases son los eventos que se pueden desencadenar al hacer una accion en el DOM
+        */
+        a:hover {
+            background: #009ddc;
+
+        }
+
+        a:active {
+            background: #000;
+        }
+        /*
+        a:visited{
+            background: #ccc;
+        }
+        */
+        div p:first-child{
+            background: #207ddc;
+        }
+
+        div p:nth-child(3){
+            background: #a2a9f1;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="#">Enlace</a>
+    <a href="http://www.google.com">Google</a>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum officiis aut dolorum, reprehenderit ex incidunt exercitationem asperiores, voluptates blanditiis eveniet libero, illum nesciunt quod?</p>
+        <p>In illum debitis ipsum corporis libero magni quis, quidem amet vel nostrum dolore quod laudantium sit illo deleniti asperiores corrupti beatae nemo aperiam odit! Recusandae!</p>
+        <p>Ducimus ut quae eum, commodi temporibus minus, iste quos, error sequi facere perferendis eius ex debitis recusandae voluptatibus ab fugiat nesciunt delectus veritatis tempora magni.</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum officiis aut dolorum, reprehenderit ex incidunt exercitationem asperiores, voluptates blanditiis eveniet libero, illum nesciunt quod?</p>
+        <p>In illum debitis ipsum corporis libero magni quis, quidem amet vel nostrum dolore quod laudantium sit illo deleniti asperiores corrupti beatae nemo aperiam odit! Recusandae!</p>
+        <p>Ducimus ut quae eum, commodi temporibus minus, iste quos, error sequi facere perferendis eius ex debitis recusandae voluptatibus ab fugiat nesciunt delectus veritatis tempora magni.</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum officiis aut dolorum, reprehenderit ex incidunt exercitationem asperiores, voluptates blanditiis eveniet libero, illum nesciunt quod?</p>
+        <p>In illum debitis ipsum corporis libero magni quis, quidem amet vel nostrum dolore quod laudantium sit illo deleniti asperiores corrupti beatae nemo aperiam odit! Recusandae!</p>
+        <p>Ducimus ut quae eum, commodi temporibus minus, iste quos, error sequi facere perferendis eius ex debitis recusandae voluptatibus ab fugiat nesciunt delectus veritatis tempora magni.</p>
+    </div>
+</body>
+</html>
