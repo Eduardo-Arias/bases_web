@@ -1,0 +1,22 @@
+.menu {
+    list-style: none;
+    background-color: teal;
+    width: 80%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover {
+    background-color: tomato;
+}
