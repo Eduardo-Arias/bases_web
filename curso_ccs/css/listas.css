@@ -1,0 +1,17 @@
+/*
+Tipo de listas
+    Graficos:
+        none | disc | circle | square
+    Numericos:
+        decimal | decimal-leading-zeo | lower-roman | upper-roman
+        lower-latin | upper-latin
+*/
+
+ul {
+    /*list-style-image: url('../../imagenes/iconos/checked.png');*/
+    list-style: square;
+}
+
+ol {
+    list-style: upper-roman;
+}
