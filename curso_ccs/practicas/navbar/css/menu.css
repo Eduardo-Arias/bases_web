@@ -8,6 +8,7 @@
 
 .menu li {
     display: inline-block;
+    text-align: center;
 }
 
 .menu li a {
