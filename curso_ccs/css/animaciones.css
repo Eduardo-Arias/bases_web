@@ -1,0 +1,43 @@
+@keyframes colores {
+    /* from{ background: brown; }
+    to{ background: rgb(255, 80, 240);}*/
+    0%{background: cyan;}
+    25%{background: darkcyan;}
+    50%{background: cornflowerblue;}
+    75%{background: darkblue};
+    100%{background: cyan;}
+}
+
+@keyframes movimiento {
+    0%{transform: translate(0px);}
+    25%{transform: translate(25px);}
+    50%{transform: translate(50px);}
+    75%{transform: translate(75px);}
+    100%{transform: translate(0px);}
+}
+
+@keyframes Enfasis {
+    from{
+        background: darkgray;
+        font-size: 16px;
+    }
+    to{
+        background: darkgrey;
+        font-size: 24px;
+    }
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    background: brown;
+    animation-name: movimiento;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+
+a:hover{
+    animation: Enfasis 3s ease;
+}
