@@ -50,13 +50,12 @@ header nav ul li a{
 
 /* Fin de los estilos del navbar de la pagina*/
 /* Inicio de los estilos del contenido de la pagina web */
-
 .main {
     width: 70%;
     background: #fff;
     float: left;
 }
-
+/*Estilo de la imagen principal*/
 .main .imagen{
     width: 100%;
 }
@@ -65,7 +64,7 @@ header nav ul li a{
     width: 100%;
     vertical-align: top;
 }
-
+/*Estilo de los articulos*/
 .main .posts{
     width: 100%;
     padding: 40px;
@@ -83,7 +82,7 @@ header nav ul li a{
     color: #424242;
     text-align: justify;
 }
-
+/*Estilo de la barra lateral*/
 aside {
     width: 30%;
     background: #161f26;
