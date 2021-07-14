@@ -1,0 +1,25 @@
+Flexbox es un conjunto de propiedades que nos permiten distribuir nuestros elementos de una forma flexible para mejores layouts / platillas
+
+Para utilizar flexbox necesitamos un contenedor padre que tenga elementos hijos. Ya que a estos son los que se haran flexiblex
+
+Flexbos se divide en 2 grupos de propiedades:
+    - Propiedades para el elemento padre
+    - Propiedades para los elementos hijos
+
+==================================
+|Propiedades del contenedor padre|
+==================================
+
+- display: flexbox
+    Nos permite habilitar que los elementos hijos sean flexibles
+
+- flex-direction: row | row-reverse | column | column-reverse
+
+- flex-wrap: no-wrap | wrap | wrap-reverse
+
+- flex-flow: <flex-direction> || flex-wrap
+    Es un atajo para unificar propiedades y no escribir tanto codigo
+
+- justufy-content: flex-start | flex-end | center | space-between | space-around
+
+- align-items: flex-start | flex-end | center | stretch | baseline

@@ -13,8 +13,18 @@ body {
 
 .contenedor {
     width: 80%;
+    height: 500px;
     max-width: 700px;
     background: #212d40;
+    margin: 10px auto;
+
+    display: flex;
+    /* flex-direction: row-reverse;
+    flex-wrap: wrap; */
+    flex-flow: row wrap; /*Unifica la propiedades de flex-direction y flex-wrap*/
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
 }
 
 .caja {
@@ -26,4 +36,12 @@ body {
     padding: 20px;
     font-size: 40px;
     color: #fff;
+    /* flex-grow: 1; determina el espacio que van a ocupar los elementos cuando se tenga que generar una nueva linea */
+    /* order: 1; */ /* Define el orden de impresión*/
+    /* flex: 1 1 auto; */
+}
+
+.dos{
+    align-self: stretch;
+    height: auto;
 }
