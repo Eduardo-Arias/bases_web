@@ -1,0 +1,23 @@
+body {
+  background: #1b3d82;
+  font-family: Arial;
+}
+
+.articulo {
+  background: #e9f1f7;
+  width: 500px;
+  padding: 20px;
+}
+.articulo .titulo {
+  text-align: center;
+  color: coral;
+}
+.articulo .autor {
+  font-size: 14px;
+  font-style: italic;
+}
+.articulo p {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=anidacion.css.map */
