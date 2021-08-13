@@ -1,0 +1,24 @@
+// Esta syntaxis es la mas nueva pero utiliza { } y ;
+body {
+    background-color: #f2f2f2;
+}
+
+.articulo {
+    background-color: #fff;
+    width: 400px;
+    text-align: justify;
+    padding: 10px;
+
+
+    .titulo{
+        color: bisque;
+    }
+
+
+    .autor {
+        color: cadetblue;
+    }
+    p{
+        margin: 5px;
+    }
+}

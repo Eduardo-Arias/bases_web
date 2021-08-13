@@ -1,0 +1,17 @@
+{
+  "name": "curso_sass",
+  "version": "1.0.0",
+  "description": "proyecto de aprendizaje de la tecnologia SASS",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.37.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass ./scss/:./css/"
+  },
+  "author": "Jorge Arias",
+  "license": "ISC"
+}
