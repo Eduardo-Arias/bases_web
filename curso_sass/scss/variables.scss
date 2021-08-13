@@ -1,0 +1,12 @@
+// Las variables se definen con el caracter $ y se pueden utiliar n numero de veces
+$colorPrimario:#226fc1;
+
+.articulo{
+    .titulo{
+        color: $colorPrimario;
+    }
+
+    p{
+        color:$colorPrimario
+    }
+}

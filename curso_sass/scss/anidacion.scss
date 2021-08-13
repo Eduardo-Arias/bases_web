@@ -1,0 +1,25 @@
+body{
+    background: #1b3d82;
+    font-family: Arial;
+
+}
+
+.articulo {
+    background: #e9f1f7;
+    width: 500px;
+    padding: 20px;
+
+    .titulo {
+        text-align: center;
+        color: coral;
+    }
+
+    .autor{
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    p{
+        text-align: justify;
+    }
+}

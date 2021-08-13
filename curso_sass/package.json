@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "sass ./scss/:./css/"
+    "scss": "sass -w ./scss/:./css/"
   },
   "author": "Jorge Arias",
   "license": "ISC"
