@@ -1,0 +1,106 @@
+body {
+    background: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    display: block;
+}
+
+.contenedor {
+    background: rgba(255, 255, 255, 0.7);
+    width: 1200px;
+    margin: 0px auto;
+    top: 10px;
+    max-width: 1200px;
+    min-width: 600px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+
+.izquierda {
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin: 50px;
+    text-align: center;
+    display: block;
+}
+
+.caja {
+    width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.caja>label {
+    float: left;
+    margin-left: 50px;
+}
+
+.caja>select {
+    float: right;
+    margin-right: 150px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.caja>textarea {
+    width: 250px;
+    height: 100px;
+    max-height: 170px;
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 50px;
+    border-radius: 5px;
+}
+
+.derecha {
+    width: 500px;
+    float: right;
+    margin: 40px;
+    text-align: center;
+    display: block;
+}
+
+table {
+    width: 90%;
+    margin-top: 50px;
+    background-color: rgba(243, 212, 212, 0.5);
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+th {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#separador {
+    transform: rotate(90deg);
+    position: relative;
+    display: block;
+    top: 150px;
+    right: 300px;
+    width: 250px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    margin-left: 530px;
+    display: inline-block;
+    background-color: white;
+    border-style: groove;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 10px;
+}
