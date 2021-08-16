@@ -1,0 +1,33 @@
+// @mixin articulo($fondo,$articulo){
+//     body {
+//         background: $fondo;
+//     }
+//     .articulo {
+//         background: $articulo;
+//     }
+// }
+
+// @include articulo(#ff8000, #fff )
+
+@mixin border-radio($pixelex){
+    border-radius: $pixelex;
+    -moz-border-radius: $pixelex;
+    -webkit-border-radius: $pixelex;
+    -ms-border-radius: $pixelex;
+    -o-border-radius: $pixelex;
+}
+
+@mixin tamanio($width,$bg){
+    width: $width;
+    background: $bg;
+}
+
+article {
+    @include tamanio(500px,burlywood );
+    @include border-radio(5px)
+}
+
+footer {
+    @include tamanio(500px,brown );
+    @include border-radio(10px)
+}
