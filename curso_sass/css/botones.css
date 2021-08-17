@@ -17,15 +17,18 @@ body {
 }
 
 .btn-rojo {
-  background: red;
+  background: #ff2732;
+}
+.btn-rojo:hover {
+  background: #f54049;
 }
 
 .btn-azul {
-  background: blue;
+  background: #246eb9;
 }
 
 .btn-verde {
-  background: green;
+  background: #4fb560;
 }
 
 /*# sourceMappingURL=botones.css.map */

@@ -1,0 +1,29 @@
+.main {
+    width: 70%;
+    background: $color_blanco;
+    float: left;
+    .imagen {
+        width: 100%;
+        img {
+            width: 100%;
+            vertical-align: top;
+        }
+    }
+    .posts {
+        width: 100%;
+        padding: 40px;
+        article {
+            h2 {
+                margin-bottom: 20px;
+                color: $color_post_text;
+                text-align: center;
+            }
+            p {
+                margin-bottom: 15px;
+                line-height: 20px;
+                color: $color_post_text;
+                text-align: justify;
+            }
+        }
+    }
+}

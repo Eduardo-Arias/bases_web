@@ -1,0 +1,32 @@
+aside {
+    width: 30%;
+    background: #161f26;
+    padding: 20px;
+    color: $color_blanco;
+    float: left;
+    .widget {
+        margin-bottom: 20px;
+        .titulo {
+            color: $color_aside_text;
+            border-bottom: 1px solid $color_aside_text;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            li {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                padding: 10px 0;
+                a {
+                    color: $color_blanco;
+                    text-decoration: none;
+                    &:hover {
+                        color: $color_aside_enlace;
+                    }
+                }
+            }
+        }
+        p {
+            line-height: 27px;
+        }
+    }
+}
