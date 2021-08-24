@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/calculadora.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <form action="" name="cal" id="cal">
+            <div class="enc">
+                <input type="text" name="resultado" id="resultado" readonly>
+            </div>
+            <div class="cuerpo">
+                
+                <div class="tablero-numerico">
+                    <input type="button" value="1" id="idx_1" onclick="agregarNumero('idx_1')">
+                    <input type="button" value="2" id="idx_2" onclick="agregarNumero('idx_2')">
+                    <input type="button" value="3" id="idx_3" onclick="agregarNumero('idx_3')">
+                    <input type="button" value="4" id="idx_4" onclick="agregarNumero('idx_4')">
+                    <input type="button" value="5" id="idx_5" onclick="agregarNumero('idx_5')">
+                    <input type="button" value="6" id="idx_6" onclick="agregarNumero('idx_6')">
+                    <input type="button" value="7" id="idx_7" onclick="agregarNumero('idx_7')">
+                    <input type="button" value="8" id="idx_8" onclick="agregarNumero('idx_8')">
+                    <input type="button" value="9" id="idx_9" onclick="agregarNumero('idx_9')">    
+                    <input type="button" value="0" id="idx_0" onclick="agregarNumero('idx_0')">
+                    <input type="button" value="." id="idx_punto" onclick="agregarNumero('idx_punto')">
+                </div>
+                
+                <div class="tablero-operadores">
+                    <input type="button" value="+" id="idx_12" onclick="agregarNumero">
+                    <input type="button" value="-" id="idx_13" onclick="agregarNumero">
+                    <input type="button" value="/" id="idx_14" onclick="agregarNumero">
+                    <input type="button" value="X" id="idx_15" onclick="agregarNumero">
+                    <input type="button" value="Enter" id="idx_16" onclick="agregarNumero">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    
+</body>
+
+</html>
