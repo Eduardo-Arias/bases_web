@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodos de los arreglos</title>
+</head>
+<body>
+    <script>
+        var amigos = ['carlos','fransisco','Cesar','Arturo'];
+        // Metodo length
+        document.write('Length: ' + amigos.length);
+        document.write('<hr>');
+        // Metodo join
+        var amigosJoin = amigos;
+        document.write('join: ' + amigosJoin.join('-'));
+        document.write('<hr>');
+        // Metodo pop - Elimina el ultimo registro de un arreglo y lo retorna para mostrar
+        var amigosPop = amigos;
+        amigosPop.pop()
+        document.write('pop: ' + amigosPop);
+        document.write('<hr>');
+        // Metodo push - Agrega un registro hasta el final del arreglo
+        var amigosPush = amigos;
+        amigosPush.push('jose')
+        document.write('Push: ' + amigosPush);
+        document.write('<hr>');
+        // Metodo shift - Elimina el primer registro de un arreglo
+        var amigosShift = amigos;
+        amigosShift.shift();
+        document.write('shift: ' + amigosShift);
+        document.write('<hr>');
+        // Metodo unshift - Agrega un registro al inicio del arreglo
+        var amigosUnShift = amigos;
+        amigosUnShift.unshift('pepe');
+        amigosUnShift.unshift('jose');
+        document.write('Unshift: ' + amigosUnShift);
+        document.write('<hr>');
+        // Metodo concat - Agrega un registro al inicio del arreglo
+        var amigos2 = ['jóse','julio'];
+        var todosMisAmigos = amigos.concat(amigos2);
+        document.write('Concat: ' + todosMisAmigos);
+        document.write('<hr>');
+    </script>
+</body>
+</html>

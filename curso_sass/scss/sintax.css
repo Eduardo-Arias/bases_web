@@ -1,0 +1,23 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.articulo {
+  background-color: #fff;
+  width: 400px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.articulo .titulo {
+  color: bisque;
+}
+
+.articulo .autor {
+  color: cadetblue;
+}
+
+.articulo p {
+  margin: 5px;
+}
+/*# sourceMappingURL=sintax.css.map */

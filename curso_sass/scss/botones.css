@@ -1,0 +1,31 @@
+body {
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton, .btn-rojo, .btn-azul, .btn-verde {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+  border: 1.5px solid #9fb3a1;
+  border-radius: 5px;
+}
+
+.boton:hover, .btn-rojo:hover, .btn-azul:hover, .btn-verde:hover {
+  text-decoration: underline;
+}
+
+.btn-rojo {
+  background: red;
+}
+
+.btn-azul {
+  background: blue;
+}
+
+.btn-verde {
+  background: green;
+}
+/*# sourceMappingURL=botones.css.map */
