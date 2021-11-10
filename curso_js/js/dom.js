@@ -20,4 +20,7 @@ primeraCaja.appendChild(parrafo);
 
 // Modificando el contenido
 var contenido = 'Hola mundo desde un nuevo nodo';
-segundaCaja.innerHTML = '<p>'+contenido+'</p>';
+segundaCaja.innerHTML = '<p>'+contenido+'</p>';}
+
+
+// Se agrega este texto de pruebas
