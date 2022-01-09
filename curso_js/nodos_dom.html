@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nodos</title>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .contenedor {
+            width: 500px;
+            margin: 10px auto;
+            background: #f2f2f2;
+        }
+        
+        .caja {
+            width: 90%;
+            height: 50px;
+            background: crimson;
+            margin: 5px auto;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        var cajas = document.getElementsByTagName('div');
+        var primeraCaja = document.getElementById('primeraCaja');
+
+        // ----------- Creando Nodos
+        // 1.- Crear elemento
+        var caja = document.createElement('div');
+        // 2.- Crear un nodo de texto
+        var contenido = document.createTextNode('Hola Mundo');
+        // 3.- Añadir el nodo de texto el elemento
+        caja.appendChild(contenido);
+        // 4.-Agregar atributos a las cajas
+        caja.setAttribute('class', 'caja naranja');
+        // 5.-Agregar el elemento al documento
+        var contenedor = document.getElementById('contenedor');
+        contenedor.appendChild(caja);
+    </script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="caja">lorem4</div>
+        <div class="caja">lorem4</div>
+        <div class="caja">lorem4</div>
+        <div class="caja">lorem4</div>
+    </div>
+
+</body>
+
+</html>
