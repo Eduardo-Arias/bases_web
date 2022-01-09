@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+    --webkit-box-sizing: border-box;
+    --moz-box-sizing: border-box;
 }
 
 #contenedor {
@@ -23,47 +23,77 @@
     width: 90%;
     margin: 10px auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
-#contenedor #cuerpo #idx_c {
+#contenedor #cuerpo .especiales {
     grid-row-start: 1;
     grid-column-start: 1;
     grid-column-end: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-#contenedor #cuerpo #idx_b {
+#contenedor #cuerpo .especiales #idx_c {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 170px;
+}
+
+#contenedor #cuerpo .especiales #idx_b {
     grid-row-start: 1;
     grid-column-start: 3;
 }
 
-#contenedor #cuerpo #idx_div {
-    grid-row-start: 1;
-    grid-column-start: 4;
-}
-
-#contenedor #cuerpo #idx_mult {
+#contenedor #cuerpo .teclado {
     grid-row-start: 2;
-    grid-column-start: 4;
-}
-
-#contenedor #cuerpo #idx_rest {
-    grid-row-start: 3;
-    grid-column-start: 4;
-}
-
-#contenedor #cuerpo #idx_sum {
-    grid-row-start: 4;
-    grid-column-start: 4;
-}
-
-#contenedor #cuerpo #idx_igu {
-    grid-row-start: 5;
-    grid-column-start: 4;
-}
-
-#contenedor #cuerpo #idx_0 {
-    grid-row-start: 5;
     grid-column-start: 1;
     grid-column-end: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#contenedor #cuerpo .teclado #idx_0 {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 170px;
+}
+
+#contenedor #cuerpo .basicas {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+input[type="button"] {
+    background-color: #f2f2f2;
+    width: 70px;
+    height: 70px;
+    margin: 10px auto;
+    border-style: none;
+    border-right: 10px outset olive;
+    border-bottom: 10px outset rgb(88, 88, 2);
+    font-size: 24px;
+}
+
+input[type="button"]:hover {
+    border-style: none;
+    border-right: 10px inset rgb(88, 88, 2);
+    border-bottom: 10px inset olive;
+}
+
+textarea {
+    width: 420px;
+    max-width: 420px;
+    min-width: 420px;
+    height: 150px;
+    max-height: 150px;
+    min-height: 150px;
+    border-radius: 15px;
+    margin: 15px auto;
+    display: block;
 }
