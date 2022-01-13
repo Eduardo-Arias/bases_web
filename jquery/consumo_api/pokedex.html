@@ -1,0 +1,24 @@
+<div class="container mt-3">
+    <h3>Pokédex</h3>
+    <table class="table" id="table_pokemones">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Acción</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<script>
+    $(document).ready(function() {
+        console.log("se cargo la tabla de pokemones");
+        $("button").click(function(e) {
+            console.log("evento click table");
+            //e.preventDefault();
+            console.log(e);
+        });
+        console.log("despues del evento");
+    });
+</script>
