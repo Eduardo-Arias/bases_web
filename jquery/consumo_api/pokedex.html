@@ -13,6 +13,13 @@
 
 <script>
     $(document).ready(function() {
+        $.get("https://pokeapi.co/api/v2/pokemon",
+            function(data) {
+                var pokemones = data.results;
+                generarTablaPokemones(pokemones);
+            }
+        );
+
         console.log("se cargo la tabla de pokemones");
         $("button").click(function(e) {
             console.log("evento click table");
@@ -20,5 +27,33 @@
             console.log(e);
         });
         console.log("despues del evento");
+
+        function generarTablaPokemones(pData) {
+            var datos = pData;
+            var tBody = document.createElement("tbody");
+            var contador = 0;
+
+            datos.forEach(pokemon => {
+                contador += 1;
+                var fila = document.createElement("tr");
+                // Numero
+                var celdaId = document.createElement("th");
+                celdaId.innerHTML = contador;
+                fila.appendChild(celdaId);
+                //nombre
+                var celdaNombre = document.createElement("th");
+                celdaNombre.innerHTML = pokemon.name;
+                fila.appendChild(celdaNombre);
+                //enlace consulta
+                var celdaEnlace = document.createElement("th");
+                celdaEnlace.innerHTML = `<button class="btn btn-primary" value="${pokemon.url}" id="algo">Consultar</button>`;
+                fila.appendChild(celdaEnlace);
+                tBody.appendChild(fila)
+            });
+
+            $("#table_pokemones").append(tBody);
+
+
+        }
     });
 </script>
