@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.contenido {
+    width: 600px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    background: ghostwhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.tarjeta {
+    width: 150px;
+    height: auto;
+    background: lightcyan;
+    padding: 5px;
+    border: 2px solid rgba(247, 160, 131, 0.4);
+    border-radius: 10px;
+}
